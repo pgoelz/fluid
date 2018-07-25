@@ -1,3 +1,10 @@
+# Custom
+# ------
+data/**/*.pdf
+data/**/*.csv
+
+# Generic python
+# --------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
