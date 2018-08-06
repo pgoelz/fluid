@@ -13,4 +13,4 @@ python3 -O plot_varying_outdegree.py -g 1.0 -d 0.5 -kp 0.0 0.2 0.4 0.6 0.8 1.0 -
 python3 -O plot_distribution_at_time.py -g 1.0 -d 0.5 -t 100 -num 1000 -sd 0 -m rpac -o data/plots/fig5a.pdf # Fig. 5a
 python3 -O plot_distribution_at_time.py -g 1.0 -d 0.5 -t 500 -num 1000 -sd 0 -m pac -o data/plots/fig5b.pdf # Fig. 5b
 python3 -O plot_smoothened_traces.py -g 1.0 -d 0.5 -sm 100 -sz 50 -sd 0 -m rpac -o data/plots/fig6.pdf -ol data/logs/fig6.csv -pw 6.4 -ph 4.8 2000 # Fig. 6
-python3 -O plot_runtimes.py -g 1.0 -k 2 -d 0.5 -sz 100 -sm 20 -sd 0 -m tac 10000 -o data/plots/fig7.pdf -ol data/logs/fig7.csv # Fig. 7
+python3 -O plot_runtimes.py -g 1.0 -k 2 -d 0.5 -sz 100 -sm 20 -sd 0 -m tac -o data/plots/fig7.pdf -ol data/logs/fig7.csv 10000 # Fig. 7
